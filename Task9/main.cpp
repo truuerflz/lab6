@@ -20,12 +20,12 @@ int main()
 		int k = 0;
 		char s[255]{};
 
-		// ïîèñê öèôğ è çàïèñü â s
+		// Ğ¿Ğ¾Ğ¸ÑĞº Ñ†Ğ¸Ñ„Ñ€ Ğ¸ Ğ·Ğ°Ğ¿Ğ¸ÑÑŒ Ğ² s
 		while (str[++i] >= 48 && str[i] <= 57) {
 			s[k] = str[i];
 			k++;
 		}
-		sum += atoi(s); // ïğåîáğàçîâàíèå â int
+		sum += atoi(s); // Ğ¿Ñ€ĞµĞ¾Ğ±Ñ€Ğ°Ğ·Ğ¾Ğ²Ğ°Ğ½Ğ¸Ğµ Ğ² int
 	}
 
 	cout << endl << "sum of numbers: " << sum << endl;
